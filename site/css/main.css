@@ -1,0 +1,31 @@
+body{
+height: 100vh;
+margin: 0;
+background-color: rgb(252, 222, 227);
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(252, 197, 206);
+}
+
+.bigbox{
+height: 40px;
+width: 120px;
+margin-top: 30px;
+background-color: white;
+}
+
+.box{
+    height: 40px;
+    width: 40px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+products{
+
+}
