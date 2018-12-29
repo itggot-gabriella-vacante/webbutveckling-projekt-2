@@ -6,7 +6,7 @@ body{
 }
 
 .timerimg{
-    background: url(../misc/fairy_lights.jpg);
+    background: url(../img/fairy_lights.jpg);
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -16,7 +16,7 @@ body{
 
 .text{
     position: absolute;
-    margin-top: 200px;
+    margin-top: 10%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -41,17 +41,6 @@ hr{
     border: 1.5px solid #fff;
 }
 
-/*Snowfall*/
-.snowflake {
-    position: fixed;
-    background-color: #fff;
-    user-select: none;
-    z-index: 1000;
-    pointer-events: none;
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-  }
 
 
 /*body{
