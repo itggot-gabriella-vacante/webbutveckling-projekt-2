@@ -41,7 +41,24 @@ hr{
     border: 1.5px solid #fff;
 }
 
+/*Snowfall*/
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
 
+  .snowflake {
+    position: fixed;
+    background-color: #fff;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
 
 /*body{
 height: 100vh;
