@@ -184,3 +184,5 @@ var countDownfunction = setInterval(function() {
         document.getElementById("demo").innerHTML - "It's Christmas!";
     }
 }, 1000);
+
+/*Menu*/
