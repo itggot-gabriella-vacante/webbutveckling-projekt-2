@@ -2,23 +2,23 @@ body{
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: pink;
+    background-color: rgb(247, 203, 210);
 }
 
-
+/*Countdown Timer*/
 .timertext{
     color: #fff;
     text-align: center;
 }
 
 h1{
-    font-size: 20px;
+    font-size: 40px;
     letter-spacing: 10px;
     font-weight: 100;
 }
 
 #demo{
-    font-size: 15px;
+    font-size: 30px;
     font-weight: lighter;
     word-spacing: 20px;
 }
@@ -37,45 +37,56 @@ hr{
     display: none;
   }
 
-  .snowflake {
+.snowflake {
     position: fixed;
     background-color: #fff;
     user-select: none;
-    z-index: 1000;
+    z-index: 1;
     pointer-events: none;
     border-radius: 50%;
     width: 10px;
     height: 10px;
   }
 
-/*body{
-height: 100vh;
-margin: 0;
-background-color: rgb(252, 222, 227);
-}
+  /*Link to home page*/
+    #linkshop{
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin-top: 30px;
+      padding: 20px 25px;
+      text-align: center;
+      border: 1px solid #fff;
+      color: #fff;
+  }
 
-header{
-    display: flex;
-    justify-content: space-evenly;
-    height: 100px;
-    width: 100vw;
-    background-color: rgb(252, 197, 206);
-}
+  /*Constant Header*/
+  .constantheader{
+      display: grid;
+      height: 80px;
+      width: 100%;
+      background-color: #fff;
+      grid-template-rows: 100px;
+      grid-template-columns: repeat(2, 15%) auto repeat(2, 15%);
+      grid-area: 
+      'buttonsheader buttonsheader nameheader buttonsheader buttonsheader';
+  }
 
-.bigbox{
-height: 40px;
-width: 120px;
-margin-top: 30px;
-background-color: white;
-}
+  .buttonsheader{
+      height: 24px;
+      width: 24px;
+      background-color: rgb(255, 255, 255);
+      margin-top: 30px;
+      margin-left: 10px;
+  }
 
-.box{
-    height: 40px;
-    width: 40px;
-    margin-top: 30px;
-    background-color: white;
-}
-
-products{   
-
-}
+  .nameheader{
+      height: 24px;
+      width: 100px;
+      background-color: rgb(255, 255, 255); 
+      margin-top: 30px;
+      margin-left: 25px;
+      text-align: center;
+      font-family: 'Charm' cursive;
+      font-weight: 100;
+  }
