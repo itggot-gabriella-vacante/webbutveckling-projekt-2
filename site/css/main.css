@@ -146,7 +146,21 @@ hr{
 .clear{
     margin-top: 20px;
     margin-left: 20px;
-    cursor: pointer;   
+    cursor: pointer;
+    width: 24px;
+}
+
+/*Menu Content*/
+h3{
+    text-align: center;
+    font-family: 'Contrail One', cursive;
+    margin-bottom: 50px;
+}
+
+.menuitems{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 30px;
 }
 
 /*Shops*/
@@ -181,14 +195,14 @@ hr{
     font-family:  'Contrail One', cursive;
 }
 
-.cranberrylipsimage{
-    background-image: url(../img/cranberry_grey_lips_small.jpg);
+.candycaneimage{
+    background-image: url(../img/candycane_tshirt_small.jpg);
     background-repeat: no-repeat;
     height: 270px;
     width: 375px;
 }
 
-.cranberrylipslink{
+.candycanelink{
     position: absolute;
     height: 40px;
     width: 170px;
@@ -199,7 +213,7 @@ hr{
     opacity: 0.7;
 }
 
-.cranberrylipstext{
+.candycanetext{
     text-align: center;
     margin-top: 6%;
     font-family:  'Contrail One', cursive;
