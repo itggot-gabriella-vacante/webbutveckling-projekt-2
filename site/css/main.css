@@ -7,7 +7,7 @@ body{
 
 /*Page Name*/
 .name{
-    color: rgb(240, 182, 182);;
+    color: rgb(118, 139, 184);
     font-family: 'Contrail One', cursive;
     text-align: center;
     margin-top: 30px;
@@ -16,7 +16,7 @@ body{
 
 /*Countdown Timer*/
 .timertext{
-    color: rgb(240, 182, 182);;
+    color: rgb(118, 139, 184);
     text-align: center;
 }
 
@@ -35,7 +35,7 @@ h1{
 hr{
     margin: auto;
     width: 80%;
-    border: 1.5px solid #fff;
+    border: 1.5px solid rgb(91, 90, 172);
 }
 
 /*Snowfall*/
@@ -48,7 +48,7 @@ hr{
 
 .snowflake {
     position: fixed;
-    background-color: rgb(240, 182, 182);
+    background-color: rgb(45, 44, 143);
     user-select: none;
     z-index: 1;
     pointer-events: none;
@@ -65,8 +65,8 @@ hr{
       margin-top: 30px;
       padding: 20px 25px;
       text-align: center;
-      border: 1px solid rgb(240, 182, 182);
-      color: rgb(240, 182, 182);
+      border: 2px solid rgb(118, 139, 184);
+      color: rgb(118, 139, 184);
   }
 
   /*Constant Header*/
@@ -94,7 +94,7 @@ hr{
     width: 100%;
   }
 
-  a:link, a:visited{
+  a, a:visited{
     text-decoration: none;
     cursor: pointer;
     color: black;
@@ -117,6 +117,7 @@ hr{
     left: -90vw;
     transition: left 0.3s;
     box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.5);
+    z-index: 100;
 }
 
 .menu-button{
@@ -152,17 +153,54 @@ hr{
 .quickshop{
     display: flex;
     justify-content: center;
-    padding-top: 30px;
+    flex-wrap: wrap;
 }
 
-.shoplips{
-height: 222px;
-width: 288px;
+.snowlipsimage{
+    background-image: url(../img/snow_lips_small.jpg);
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 375px;
+    padding-bottom: 5px;
 }
 
-.lipslink{
-    height: 30px;
-    width: 100px;
-    background-color: lightgray;
-    z-index: 100;
+.snowlipslink{
+    position: absolute;
+    height: 40px;
+    width: 170px;
+    background-color: #fff;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 110px;
+    opacity: 0.7;
+}
+
+.snowlipstext{
+    text-align: center;
+    margin-top: 6%;
+    font-family:  'Contrail One', cursive;
+}
+
+.cranberrylipsimage{
+    background-image: url(../img/cranberry_grey_lips_small.jpg);
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 375px;
+}
+
+.cranberrylipslink{
+    position: absolute;
+    height: 40px;
+    width: 170px;
+    background-color: #fff;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 110px;
+    opacity: 0.7;
+}
+
+.cranberrylipstext{
+    text-align: center;
+    margin-top: 6%;
+    font-family:  'Contrail One', cursive;
 }
