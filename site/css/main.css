@@ -7,7 +7,7 @@ body{
 
 /*Page Name*/
 .name{
-    color: rgb(118, 139, 184);
+    color: black;
     font-family: 'Contrail One', cursive;
     text-align: center;
     margin-top: 30px;
@@ -16,7 +16,7 @@ body{
 
 /*Countdown Timer*/
 .timertext{
-    color: rgb(118, 139, 184);
+    color: black;
     text-align: center;
 }
 
@@ -35,10 +35,10 @@ h1{
 hr{
     margin: auto;
     width: 80%;
-    border: 1.5px solid rgb(91, 90, 172);
+    border: 1.5px solid black;
 }
 
-/*Snowfall*/
+/*Snowfall*/ 
 #snowflakeContainer {
     position: absolute;
     left: 0px;
@@ -48,7 +48,7 @@ hr{
 
 .snowflake {
     position: fixed;
-    background-color: rgb(45, 44, 143);
+    background-color: grey;
     user-select: none;
     z-index: 1;
     pointer-events: none;
@@ -65,8 +65,8 @@ hr{
       margin-top: 30px;
       padding: 20px 25px;
       text-align: center;
-      border: 2px solid rgb(118, 139, 184);
-      color: rgb(118, 139, 184);
+      border: 1.5px solid black;
+      color: black;
   }
 
   /*Constant Header*/
